@@ -1,0 +1,20 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Cif</th>
+        <th scope="col">Dirección</th>
+        <th scope="col">Grupo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let posicion of Clientes">
+        <td>{{ posicion.name }}</td>
+        <td>{{ posicion.cif }}</td>
+        <td>{{ posicion.direccion }}</td>
+        <td>{{ posicion.grupo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

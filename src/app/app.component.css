@@ -1,0 +1,26 @@
+.general{
+  background-color: rgb(240, 247, 202);
+  margin-top: -20px;
+  height: 800px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+form {
+  font-size: 20px;
+  margin-left: 400px;
+  margin-right: 300px;
+}
+
+.input-group {
+  margin-top: 28px;
+}
+
+.Clientes{
+  margin: bottom 20px;
+}
